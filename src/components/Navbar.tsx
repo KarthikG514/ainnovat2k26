@@ -25,7 +25,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const navbarClasses = `fixed w-full z-10 transition-all duration-100 ${scrolled ? 'bg-white bg-opacity-80 backdrop-blur-sm shadow-md py-2' : 'bg-transparent py-1'
+  const navbarClasses = `fixed w-full z-20 transition-all duration-300 ${scrolled ? 'bg-black/40 backdrop-blur-md border-b border-white/10 shadow-lg py-2' : 'bg-transparent py-4'
     }`;
 
   const navLinks = [
@@ -62,9 +62,9 @@ const Navbar = () => {
               >
                 <Link
                   to={link.path}
-                  className={`font-medium transition-colors duration-300 ${location.pathname === link.path
-                    ? 'text-indigo-600'
-                    : 'text-white hover:text-indigo-600'
+                  className={`font-semibold transition-all duration-300 px-2 py-1 rounded-lg ${location.pathname === link.path
+                    ? 'text-white bg-white/10'
+                    : 'text-white/80 hover:text-white hover:bg-white/5'
                     }`}
                 >
                   {link.name}
@@ -77,9 +77,9 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-black hover:text-indigo-600 focus:outline-none"
+              className="text-white hover:text-indigo-400 focus:outline-none transition-colors"
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
         </div>
@@ -91,16 +91,16 @@ const Navbar = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden mt-4 pb-4"
+            className="md:hidden mt-4 pb-6 px-2 bg-black/90 backdrop-blur-xl rounded-2xl border border-white/10"
           >
-            <div className="flex flex-col space-y-4">
+            <div className="flex flex-col space-y-2 mt-4">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
                   to={link.path}
-                  className={`font-medium px-4 py-2 rounded-md transition-colors duration-300 ${location.pathname === link.path
-                    ? 'bg-indigo-100 text-indigo-600'
-                    : 'text-black hover:bg-indigo-50 hover:text-indigo-600'
+                  className={`font-semibold px-4 py-3 rounded-xl transition-all duration-300 ${location.pathname === link.path
+                    ? 'bg-white/10 text-white'
+                    : 'text-white/70 hover:bg-white/5 hover:text-white'
                     }`}
                   onClick={() => setIsOpen(false)}
                 >
