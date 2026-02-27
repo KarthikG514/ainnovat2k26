@@ -44,13 +44,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Events</h4>
             <ul className="space-y-4">
               <li className="h-6 flex items-center">
-                <Link to="/event/paper-presentation" className="text-gray-400 hover:text-white transition-colors">Innovata</Link>
+                <Link to="/event/paper-presentation" className="text-gray-400 hover:text-white transition-colors">Idea Pitching</Link>
               </li>
               <li className="h-6 flex items-center">
-                <Link to="/event/idea-pitching" className="text-gray-400 hover:text-white transition-colors">Idea Pitching</Link>
+                <Link to="/event/idea-pitching" className="text-gray-400 hover:text-white transition-colors">Brain Buster</Link>
               </li>
               <li className="h-6 flex items-center">
-                <Link to="/event/project-expo" className="text-gray-400 hover:text-white transition-colors">Project Expo</Link>
+                <Link to="/event/project-expo" className="text-gray-400 hover:text-white transition-colors">Tech Forge</Link>
               </li>
               <li className="h-6 flex items-center">
                 <Link to="/event/workshop" className="text-gray-400 hover:text-white transition-colors">Workshop</Link>
