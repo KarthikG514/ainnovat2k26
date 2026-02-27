@@ -71,6 +71,18 @@ const Navbar = () => {
                 </Link>
               </motion.div>
             ))}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.6 }}
+            >
+              <a
+                href="/#events"
+                className="bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-5 py-2 rounded-full font-bold shadow-lg hover:shadow-indigo-500/20 transition-all hover:scale-105"
+              >
+                Register
+              </a>
+            </motion.div>
           </div>
 
           {/* Mobile Menu Button */}

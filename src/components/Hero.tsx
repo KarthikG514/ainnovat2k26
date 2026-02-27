@@ -57,10 +57,13 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <a href="#events" className="btn btn-primary">
+          <a href="#events" className="btn btn-primary px-8">
+            Register Now
+          </a>
+          <a href="#events" className="btn bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm border border-white/20 px-8">
             Explore Events
           </a>
-          <a href="#about" className="btn bg-white text-indigo-600 hover:bg-gray-100">
+          <a href="#about" className="btn bg-white text-indigo-600 hover:bg-gray-100 px-8">
             Learn More
           </a>
         </motion.div>

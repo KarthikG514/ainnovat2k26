@@ -80,7 +80,7 @@ const EventDetails = () => {
                   <Calendar className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Date</p>
-                    <p className="font-medium">Apirl 3, 2025</p>
+                    <p className="font-medium text-gray-900">March 13, 2026</p>
                   </div>
                 </div>
 
@@ -88,7 +88,7 @@ const EventDetails = () => {
                   <Clock className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Time</p>
-                    <p className="font-medium">10:00 AM - 03:30 PM</p>
+                    <p className="font-medium text-gray-900">10:30 AM - 01:30 PM</p>
                   </div>
                 </div>
 

@@ -31,7 +31,7 @@ export const events: Event[] = [
       { name: 'ABISHEK', mobile: '9487078661' },
       { name: 'VARUN PRASATH', mobile: '7397275861' },
     ],
-    formLink: '#'
+    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
   },
   {
     id: 'idea-pitching',
@@ -88,7 +88,7 @@ export const events: Event[] = [
       { name: 'AADHI', mobile: '6381254305' },
       { name: 'SHYAM', mobile: '9629332994' },
     ],
-    formLink: '#'
+    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScsiZcQ65ZyIxYLQvN4vv9XDyidcrN-FNI4HyrLAYBaZNHIcg/viewform?usp=dialog'
   },
   {
     id: 'true-detective',
