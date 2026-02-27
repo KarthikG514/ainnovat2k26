@@ -10,7 +10,7 @@ const achievements = [
   { id: 4, image: '/images/im-6.jpg', title: 'WorkShop ' },
   { id: 5, image: '/images/im-5.jpg', title: 'Paper Presentation' },
   { id: 6, image: '/images/im-1.png', title: 'Club Activities' },
-  { id: 7, image: '/images/vibathon.jpg', title: 'Vibathon', rotate: true },
+  { id: 7, image: '/images/vibathon.jpg', title: 'Vibathon', rotate: 90, scale: 1.6 },
   { id: 8, image: '/images/ain.png', title: 'Ideathon' },
 ];
 
@@ -35,8 +35,8 @@ const Achievements = () => {
                   src={achievement.image}
                   alt={achievement.title}
                   loading="lazy"
-                  className={`w-full h-full object-cover transition-transform duration-700 hover:scale-105 ${achievement.rotate ? 'rotate-90 scale-125' : ''
-                    }`}
+                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                  style={achievement.rotate ? { transform: `rotate(${achievement.rotate}deg) scale(${achievement.scale || 1})` } : {}}
                 />
               </div>
               <div className="p-3 text-center bg-white/90">
