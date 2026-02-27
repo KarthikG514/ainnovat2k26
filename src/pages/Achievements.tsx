@@ -8,8 +8,10 @@ const achievements = [
   { id: 2, image: '/images/im-7.jpg', title: 'Hackathon ' },
   { id: 3, image: '/images/im-4.jpg', title: 'Symposium ' },
   { id: 4, image: '/images/im-6.jpg', title: 'WorkShop ' },
-  { id: 4, image: '/images/im-5.jpg', title: 'Paper Presentation' },
-  { id: 4, image: '/images/im-1.png', title: 'Club Activities' },
+  { id: 5, image: '/images/im-5.jpg', title: 'Paper Presentation' },
+  { id: 6, image: '/images/im-1.png', title: 'Club Activities' },
+  { id: 7, image: '/images/im-2.png', title: 'Vibathon' },
+  { id: 8, image: '/images/ain.png', title: 'Ideathon' },
 ];
 
 const Achievements = () => {
