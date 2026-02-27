@@ -12,9 +12,9 @@ const About = () => {
         { time: '09:40 AM – 10:20 AM', title: 'Inauguration Ceremony' },
         { time: '10:20 AM – 10:30 AM', title: 'Keynote Speech' },
         { time: '10:30 AM – 01:30 PM', title: 'Workshop Session' },
-        { time: '10:30 AM – 01:30 PM', title: 'Paper Presentation' },
-        { time: '10:30 AM – 01:30 PM', title: 'Project Expo' },
-        { time: '01:30 AM – 03:20 PM', title: 'Fun Factory & True Detective' },
+        { time: '10:30 AM – 01:30 PM', title: 'Idea Pitching' },
+        { time: '10:30 AM – 01:30 PM', title: 'Tech Forge' },
+        { time: '01:30 PM – 03:20 PM', title: 'Brain Buster' },
         { time: '03:30 PM – 04:30 PM', title: 'Prize Distribution' }
       ]
     },
