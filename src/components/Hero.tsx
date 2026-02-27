@@ -36,19 +36,19 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-80 backdrop-blur-sm px-4 py-2 rounded-full">
-            <Calendar className="text-indigo-600" size={20} />
-            <span className="font-medium">March 13, 2026</span>
+          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-90 backdrop-blur-sm px-5 py-2 rounded-full shadow-lg border border-white/20">
+            <Calendar className="text-indigo-700" size={20} />
+            <span className="font-bold text-black">March 13, 2026</span>
           </div>
 
-          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-80 backdrop-blur-sm px-4 py-2 rounded-full">
-            <MapPin className="text-indigo-600" size={20} />
-            <span className="font-medium">MAHENDRA ENGINEERING COLLEGE (Autonomous), MEC</span>
+          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-90 backdrop-blur-sm px-5 py-2 rounded-full shadow-lg border border-white/20">
+            <MapPin className="text-indigo-700" size={20} />
+            <span className="font-bold text-black">MAHENDRA ENGINEERING COLLEGE (Autonomous), MEC</span>
           </div>
 
-          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-80 backdrop-blur-sm px-4 py-2 rounded-full">
-            <Users className="text-indigo-600" size={20} />
-            <span className="font-medium">300+ Participants</span>
+          <div className="flex items-center justify-center gap-2 bg-white bg-opacity-90 backdrop-blur-sm px-5 py-2 rounded-full shadow-lg border border-white/20">
+            <Users className="text-indigo-700" size={20} />
+            <span className="font-bold text-black">300+ Participants</span>
           </div>
         </motion.div>
 
