@@ -88,6 +88,7 @@ const OrganizersSection = () => {
                                 <img
                                     src="/images/organizers/convenor.png"
                                     alt="Dr. S. Ananth"
+                                    loading="lazy"
                                     className="w-full h-full object-cover"
                                     style={{
                                         objectPosition: 'center 15%',
@@ -142,6 +143,7 @@ const OrganizersSection = () => {
                                         <img
                                             src={member.img}
                                             alt={member.name}
+                                            loading="lazy"
                                             className="w-full h-full object-cover"
                                             style={{
                                                 objectPosition: 'center 15%',

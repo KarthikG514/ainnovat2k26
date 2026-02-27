@@ -12,7 +12,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         ><div className='flex items-center justify-center'>
-            <img src="./images/ai.png" alt="" className="w-48 md:w-auto" />
+            <img src="./images/ai.png" alt="" className="w-48 md:w-auto" loading="lazy" />
           </div>
         </motion.div>
 
