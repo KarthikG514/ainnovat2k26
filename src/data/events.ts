@@ -16,7 +16,7 @@ export interface Event {
 export const events: Event[] = [
   {
     id: 'paper-presentation',
-    name: 'Innovata',
+    name: 'Idea Pitching',
     description: 'Present your research papers on emerging technologies and innovative solutions to real-world problems.',
     type: 'technical',
     image: '/images/events/paper-presentation.jpg',
@@ -35,7 +35,7 @@ export const events: Event[] = [
   },
   {
     id: 'idea-pitching',
-    name: 'Idea Pitching',
+    name: 'Brain Buster',
     description: 'Pitch your new startup ideas and innovative solutions. Brainstorm, collaborate, and compete for the best concept.',
     type: 'technical',
     image: '/images/events/ideathon.jpg',
@@ -54,7 +54,7 @@ export const events: Event[] = [
   },
   {
     id: 'project-expo',
-    name: 'Project Expo',
+    name: 'Tech Forge',
     description: 'Showcase your innovative projects and prototypes to a wide audience including industry professionals.',
     type: 'technical',
     image: '/images/events/project-expo.jpg',
