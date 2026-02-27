@@ -64,7 +64,7 @@ const Countdown = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
         >
             <div className="flex flex-col items-center">
-                <h3 className="text-center text-[10px] md:text-xs font-bold tracking-[0.6em] text-white/60 uppercase mb-12 relative">
+                <h3 className="text-center text-[10px] md:text-xs font-bold tracking-[0.6em] text-white uppercase mb-12 relative">
                     <span className="relative z-10">Innovation Launch Countdown</span>
                     <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-20 h-[1px] bg-gradient-to-r from-transparent via-white/30 to-transparent" />
                 </h3>
