@@ -31,7 +31,7 @@ export const events: Event[] = [
       { name: 'ABISHEK', mobile: '9487078661' },
       { name: 'VARUN PRASATH', mobile: '7397275861' },
     ],
-    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
+    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfcI_84geQWX1MLDZlljheNCZk2V_aYGi-Y5VUWad-kEX45aw/viewform?usp=dialog'
   },
   {
     id: 'idea-pitching',
@@ -50,7 +50,7 @@ export const events: Event[] = [
       { name: 'ABDUL RASHIK', mobile: '6381503021' },
       { name: 'PAVITRAN', mobile: '6381551697' },
     ],
-    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfcI_84geQWX1MLDZlljheNCZk2V_aYGi-Y5VUWad-kEX45aw/viewform?usp=dialog'
+    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
   },
   {
     id: 'project-expo',
