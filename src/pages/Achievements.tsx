@@ -10,7 +10,7 @@ const achievements = [
   { id: 4, image: '/images/im-6.jpg', title: 'WorkShop ' },
   { id: 5, image: '/images/im-5.jpg', title: 'Paper Presentation' },
   { id: 6, image: '/images/im-1.png', title: 'Club Activities' },
-  { id: 7, image: '/images/vibathon.jpg', title: 'Vibathon', rotate: 90, scale: 1.6 },
+  { id: 7, image: '/images/vibathon.jpg', title: 'Vibathon', rotate: -90, scale: 1.6 },
   { id: 8, image: '/images/ain.png', title: 'Ideathon' },
 ];
 
