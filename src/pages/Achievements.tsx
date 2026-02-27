@@ -10,7 +10,7 @@ const achievements = [
   { id: 4, image: '/images/im-6.jpg', title: 'WorkShop ' },
   { id: 5, image: '/images/im-5.jpg', title: 'Paper Presentation' },
   { id: 6, image: '/images/im-1.png', title: 'Club Activities' },
-  { id: 7, image: '/images/im-2.png', title: 'Vibathon' },
+  { id: 7, image: '/images/vibathon.jpg', title: 'Vibathon', rotate: true },
   { id: 8, image: '/images/ain.png', title: 'Ideathon' },
 ];
 
@@ -21,7 +21,7 @@ const Achievements = () => {
         <h1 className="text-4xl font-bold text-center mb-10 gradient-text">Department Achievements</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
-          {achievements.map((achievement) => (
+          {achievements.map((achievement: any) => (
             <motion.div
               key={achievement.id}
               initial={{ opacity: 0, scale: 0.95 }}
@@ -35,7 +35,8 @@ const Achievements = () => {
                   src={achievement.image}
                   alt={achievement.title}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                  className={`w-full h-full object-cover transition-transform duration-700 hover:scale-105 ${achievement.rotate ? 'rotate-90 scale-125' : ''
+                    }`}
                 />
               </div>
               <div className="p-3 text-center bg-white/90">
