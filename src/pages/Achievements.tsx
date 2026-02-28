@@ -20,7 +20,7 @@ const Achievements = () => {
       <div className="container mx-auto px-4 py-2">
         <h1 className="text-4xl font-bold text-center mb-10 gradient-text">Department Achievements</h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+        <div className="flex flex-wrap justify-center gap-7">
           {achievements.map((achievement: any) => (
             <motion.div
               key={achievement.id}
@@ -28,7 +28,7 @@ const Achievements = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6 }}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg rounded-lg overflow-hidden flex flex-col"
+              className="w-full sm:w-[calc(50%-1.75rem)] lg:w-[calc(33.333%-1.75rem)] bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg rounded-lg overflow-hidden flex flex-col"
             >
               <div className="aspect-[3/2] w-full overflow-hidden bg-white/5 relative">
                 <motion.div
