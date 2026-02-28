@@ -104,7 +104,7 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'MOTHISH WARAN', mobile: '9003868879' },
+      { name: 'MothishWaran', mobile: '9003868879' },
       { name: 'SASWANTH', mobile: '6383035750' },
     ],
     formLink: '#'
@@ -123,7 +123,7 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'MOTHISH WARAN', mobile: '9003868879' },
+      { name: 'MothishWaran', mobile: '9003868879' },
       { name: 'SASWANTH', mobile: '6383035750' },
     ],
     formLink: '#'
