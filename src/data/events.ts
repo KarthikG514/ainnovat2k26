@@ -48,7 +48,7 @@ export const events: Event[] = [
     ],
     coordinators: [
       { name: 'Abdul Rashik', mobile: '6381503021' },
-      { name: 'Pavitran', mobile: '6381551697' },
+      { name: 'Pavithran', mobile: '6381551697' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
   },
