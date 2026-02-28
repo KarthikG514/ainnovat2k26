@@ -39,8 +39,8 @@ const Contact = () => {
                     <p className="text-gray-900 font-bold">6381503021 - <span className="gradient-text font-bold">ABDUL RASHIK</span></p>
                     <p className="text-gray-900 font-bold">8220696177 - <span className="gradient-text font-bold">VARUN KISHORE</span></p>
                     <p className="text-gray-900 font-bold">6381254305 - <span className="gradient-text font-bold">AADHI</span></p>
-                    <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold">Mothish Waran (True Detective)</span></p>
-                    <p className="text-gray-900 font-bold">6383035750 - <span className="gradient-text font-bold">Saswanth (IPL Auction)</span></p>
+                    <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold">Mothish Waran</span></p>
+                    <p className="text-gray-900 font-bold">6383035750 - <span className="gradient-text font-bold">Saswanth</span></p>
                   </div>
                 </div>
 
