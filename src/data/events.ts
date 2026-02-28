@@ -28,8 +28,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'ABISHEK', mobile: '9487078661' },
-      { name: 'VARUN PRASATH', mobile: '7397275861' },
+      { name: 'Abishek', mobile: '9487078661' },
+      { name: 'Varun Prasath', mobile: '7397275861' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfcI_84geQWX1MLDZlljheNCZk2V_aYGi-Y5VUWad-kEX45aw/viewform?usp=dialog'
   },
@@ -47,8 +47,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'ABDUL RASHIK', mobile: '6381503021' },
-      { name: 'PAVITRAN', mobile: '6381551697' },
+      { name: 'Abdul Rashik', mobile: '6381503021' },
+      { name: 'Pavitran', mobile: '6381551697' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
   },
@@ -66,8 +66,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'VARUN KISHORE', mobile: '8220696177' },
-      { name: 'VENKATESH', mobile: '7416041634' },
+      { name: 'Varun Kishore', mobile: '8220696177' },
+      { name: 'Venkatesh', mobile: '7416041634' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdCQUL4YwF621V31tJqUSqNE4oUuWAeus-5XxziET8XrWxg3g/viewform?usp=dialog'
   },
@@ -85,8 +85,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'AADHI', mobile: '6381254305' },
-      { name: 'SHYAM', mobile: '9629332994' },
+      { name: 'Aadhi', mobile: '6381254305' },
+      { name: 'Shyam', mobile: '9629332994' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLScsiZcQ65ZyIxYLQvN4vv9XDyidcrN-FNI4HyrLAYBaZNHIcg/viewform?usp=dialog'
   },
@@ -105,7 +105,7 @@ export const events: Event[] = [
     ],
     coordinators: [
       { name: 'MothishWaran', mobile: '9003868879' },
-      { name: 'SASWANTH', mobile: '6383035750' },
+      { name: 'Saswanth', mobile: '6383035750' },
     ],
     formLink: '#'
   },
@@ -124,7 +124,7 @@ export const events: Event[] = [
     ],
     coordinators: [
       { name: 'MothishWaran', mobile: '9003868879' },
-      { name: 'SASWANTH', mobile: '6383035750' },
+      { name: 'Saswanth', mobile: '6383035750' },
     ],
     formLink: '#'
   },

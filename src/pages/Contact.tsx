@@ -35,10 +35,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-900 font-bold">9487078661 - <span className="gradient-text font-bold" >ABISHEK</span></p>
-                    <p className="text-gray-900 font-bold">6381503021 - <span className="gradient-text font-bold">ABDUL RASHIK</span></p>
-                    <p className="text-gray-900 font-bold">8220696177 - <span className="gradient-text font-bold">VARUN KISHORE</span></p>
-                    <p className="text-gray-900 font-bold">6381254305 - <span className="gradient-text font-bold">AADHI</span></p>
+                    <p className="text-gray-900 font-bold">9487078661 - <span className="gradient-text font-bold" >Abishek</span></p>
+                    <p className="text-gray-900 font-bold">6381503021 - <span className="gradient-text font-bold">Abdul Rashik</span></p>
+                    <p className="text-gray-900 font-bold">8220696177 - <span className="gradient-text font-bold">Varun Kishore</span></p>
+                    <p className="text-gray-900 font-bold">6381254305 - <span className="gradient-text font-bold">Aadhi</span></p>
                     <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold" >MothishWaran</span></p>
                     <p className="text-gray-900 font-bold">6383035750 - <span className="gradient-text font-bold">Saswanth</span></p>
                   </div>
