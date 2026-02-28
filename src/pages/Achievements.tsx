@@ -31,13 +31,19 @@ const Achievements = () => {
               className="bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg rounded-lg overflow-hidden flex flex-col"
             >
               <div className="aspect-[3/2] w-full overflow-hidden bg-white/5 relative">
-                <img
-                  src={achievement.image}
-                  alt={achievement.title}
-                  loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-                  style={achievement.rotate ? { transform: `rotate(${achievement.rotate}deg) scale(${achievement.scale || 1})` } : {}}
-                />
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.7 }}
+                  className="w-full h-full"
+                >
+                  <img
+                    src={achievement.image}
+                    alt={achievement.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                    style={achievement.rotate ? { transform: `rotate(${achievement.rotate}deg) scale(${achievement.scale || 1})` } : {}}
+                  />
+                </motion.div>
               </div>
               <div className="p-3 text-center bg-white/90">
                 <h3 className="text-lg font-bold text-gray-900">{achievement.title}</h3>
