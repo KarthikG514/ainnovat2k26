@@ -51,7 +51,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold text-gray-900">Social Media</h3>
                     <div className="flex space-x-4 mt-2">
-                      <a href="https://www.linkedin.com/in/mec-ai-ds-661832397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-indigo-600 hover:text-indigo-800 transition-colors">
+                      <a href="https://www.linkedin.com/in/mec-ai-ds-661832397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:text-indigo-800 transition-colors">
                         LinkedIn
                       </a>
 

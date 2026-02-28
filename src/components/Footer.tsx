@@ -15,7 +15,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/mec_ai.ds_official?igsh=MWY0YXlhMDNia3E2eA==" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/mec-ai-ds-661832397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/mec-ai-ds-661832397?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
