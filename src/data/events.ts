@@ -92,7 +92,7 @@ export const events: Event[] = [
   },
   {
     id: 'true-detective',
-    name: 'True Detective',
+    name: 'Fun Factory',
     description: 'Unleash your inner detective in this thrilling mystery-solving event! Use logic, clues, and investigative skills to crack the case.',
     type: 'non-technical',
     image: '/images/events/true-detective.jpg',
@@ -111,7 +111,7 @@ export const events: Event[] = [
   },
   {
     id: 'ipl-auction',
-    name: 'IPL Auction',
+    name: 'BEAT BATTLE: Mind Edition',
     description: 'Strategy meets cricket! Build your dream team in this exciting auction simulation with a virtual budget.',
     type: 'non-technical',
     image: '/images/events/ipl-auction.jpg',
