@@ -93,10 +93,10 @@ export const events: Event[] = [
   {
     id: 'true-detective',
     name: 'Fun Factory',
-    description: 'Unleash your inner detective in this thrilling mystery-solving event! Use logic, clues, and investigative skills to crack the case.',
+    description: 'Fun Team Games – These exciting activities test creativity, coordination, and teamwork. In one game, players act out clues without speaking while others guess the answer. In the other, teams use only pens to balance and transfer a ball into a cup without touching it by hand.',
     type: 'non-technical',
     image: '/images/events/true-detective.jpg',
-    details: 'Put your analytical and problem-solving skills to the ultimate test! True Detective is a thrilling mystery-solving challenge where participants must use logic, clues, and creative thinking to crack the case before time runs out.',
+    details: 'Fun Factory is a collection of exciting team-based games that test creativity, coordination, and teamwork. In one game, players act out clues without speaking while others guess the answer. In the other, teams use only pens to balance and transfer a ball into a cup without touching it by hand. Come join the fun and prove your team has what it takes!',
     guidelines: [
       'Clues will be provided at each stage of the event',
       'Use of mobile phones is strictly prohibited during the event',

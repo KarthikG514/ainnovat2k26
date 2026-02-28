@@ -55,10 +55,10 @@ const Footer = () => {
                 <Link to="/event/workshop" className="text-gray-400 hover:text-white transition-colors">Workshop</Link>
               </li>
               <li className="h-6 flex items-center">
-                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">True Detective</Link>
+                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">Fun Factory</Link>
               </li>
               <li className="h-6 flex items-center">
-                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">IPL Auction</Link>
+                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">BEAT BATTLE: Mind Edition</Link>
               </li>
             </ul>
           </div>
