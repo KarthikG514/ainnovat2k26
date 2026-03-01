@@ -28,8 +28,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'Abishek', mobile: '9487078661' },
-      { name: 'Varun Prasath', mobile: '7397275861' },
+      { name: 'Abdul Rashik', mobile: '6381503021' },
+      { name: 'Pavithran', mobile: '6381551697' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfcI_84geQWX1MLDZlljheNCZk2V_aYGi-Y5VUWad-kEX45aw/viewform?usp=dialog'
   },
@@ -47,8 +47,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'Abdul Rashik', mobile: '6381503021' },
-      { name: 'Pavithran', mobile: '6381551697' },
+      { name: 'Abishek', mobile: '9487078661' },
+      { name: 'Varun Prasath', mobile: '7397275861' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
   },

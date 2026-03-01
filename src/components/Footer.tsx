@@ -68,11 +68,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">9487078661</span>
+                <span className="text-gray-400">6381503021</span>
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">6381503021</span>
+                <span className="text-gray-400">9487078661</span>
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
