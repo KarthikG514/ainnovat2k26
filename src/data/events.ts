@@ -39,7 +39,7 @@ export const events: Event[] = [
     description: 'Pitch your new startup ideas and innovative solutions. Brainstorm, collaborate, and compete for the best concept.',
     type: 'technical',
     image: '/images/events/ideathon.jpg',
-    details: 'Idea Pitching is the ultimate startup idea pitching competition. Present your innovative business ideas and tech solutions to a panel of judges. Think big, think bold — and turn your vision into a winning concept.',
+    details: 'Brain Busters is a dual-round technical event that challenges both creativity and analytical thinking. Each team of four splits into two pairs to compete simultaneously within a common time limit. One pair participates in Comic Collide, crafting an engaging comic from given themes and dialogues, while the other takes on the Red Teaming (AI Jailbreak Challenge), strategically interacting with an AI system to uncover a hidden secret. Final scores combine results from both rounds, rewarding teams that demonstrate collaboration, innovation, and strategic problem-solving under pressure.',
     guidelines: [
       'Each team must present a unique startup idea',
       'Presentation should include problem statement, solution, and business model',
@@ -47,7 +47,7 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'Abishek', mobile: '9487078661' },
+      { name: 'Abhishek Anand', mobile: '9487078661' },
       { name: 'Varun Prasath', mobile: '7397275861' },
     ],
     formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeGmmi01Vu_gX7gVY6sk5qsDmEI4FghODd8XA-5TcwjPSrOjg/viewform?usp=publish-editor'
