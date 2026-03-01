@@ -43,22 +43,22 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Events</h4>
             <ul className="space-y-4">
               <li className="h-6 flex items-center">
-                <Link to="/event/paper-presentation" className="text-gray-400 hover:text-white transition-colors">Idea Pitching</Link>
+                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">BEAT BATTLE: Mind Edition</Link>
               </li>
               <li className="h-6 flex items-center">
                 <Link to="/event/idea-pitching" className="text-gray-400 hover:text-white transition-colors">Brain Buster</Link>
+              </li>
+              <li className="h-6 flex items-center">
+                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">Fun Factory</Link>
+              </li>
+              <li className="h-6 flex items-center">
+                <Link to="/event/paper-presentation" className="text-gray-400 hover:text-white transition-colors">Idea Pitching</Link>
               </li>
               <li className="h-6 flex items-center">
                 <Link to="/event/project-expo" className="text-gray-400 hover:text-white transition-colors">Tech Forge</Link>
               </li>
               <li className="h-6 flex items-center">
                 <Link to="/event/workshop" className="text-gray-400 hover:text-white transition-colors">Workshop</Link>
-              </li>
-              <li className="h-6 flex items-center">
-                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">Fun Factory</Link>
-              </li>
-              <li className="h-6 flex items-center">
-                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">BEAT BATTLE: Mind Edition</Link>
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">6381503021</span>
+                <span className="text-gray-400">6383035750</span>
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
@@ -76,19 +76,19 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">8220696177</span>
-              </li>
-              <li className="flex items-center gap-3 h-6">
-                <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">6381254305</span>
-              </li>
-              <li className="flex items-center gap-3 h-6">
-                <Phone size={18} className="text-indigo-400" />
                 <span className="text-gray-400">9003868879</span>
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">6383035750</span>
+                <span className="text-gray-400">6381503021</span>
+              </li>
+              <li className="flex items-center gap-3 h-6">
+                <Phone size={18} className="text-indigo-400" />
+                <span className="text-gray-400">7416041634</span>
+              </li>
+              <li className="flex items-center gap-3 h-6">
+                <Phone size={18} className="text-indigo-400" />
+                <span className="text-gray-400">6381254305</span>
               </li>
             </ul>
           </div>
