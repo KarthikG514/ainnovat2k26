@@ -20,7 +20,7 @@ export const events: Event[] = [
     description: 'Present your research papers on emerging technologies and innovative solutions to real-world problems.',
     type: 'technical',
     image: '/images/events/paper-presentation.jpg',
-    details: 'Innovata provides a platform for students and researchers to present their innovative ideas and research work. Participants will have the opportunity to showcase their findings, receive feedback from experts, and engage in meaningful discussions with peers.',
+    details: 'Idea Pitching provides a platform for students and researchers to present their innovative ideas and research work. Participants will have the opportunity to showcase their findings, receive feedback from experts, and engage in meaningful discussions with peers.',
     guidelines: [
       'Maximum of 4 authors per paper & Minimum of 1',
       'Include engaging and fun professional games Between Sessions with Exciting Gifts.',
