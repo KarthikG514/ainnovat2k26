@@ -43,13 +43,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Events</h4>
             <ul className="space-y-4">
               <li className="h-6 flex items-center">
-                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">BEAT BATTLE: Mind Edition</Link>
-              </li>
-              <li className="h-6 flex items-center">
                 <Link to="/event/idea-pitching" className="text-gray-400 hover:text-white transition-colors">Brain Buster</Link>
-              </li>
-              <li className="h-6 flex items-center">
-                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">Fun Factory</Link>
               </li>
               <li className="h-6 flex items-center">
                 <Link to="/event/paper-presentation" className="text-gray-400 hover:text-white transition-colors">Idea Pitching</Link>
@@ -60,6 +54,12 @@ const Footer = () => {
               <li className="h-6 flex items-center">
                 <Link to="/event/workshop" className="text-gray-400 hover:text-white transition-colors">Workshop</Link>
               </li>
+              <li className="h-6 flex items-center">
+                <Link to="/event/ipl-auction" className="text-gray-400 hover:text-white transition-colors">BEAT BATTLE: Mind Edition</Link>
+              </li>
+              <li className="h-6 flex items-center">
+                <Link to="/event/true-detective" className="text-gray-400 hover:text-white transition-colors">Fun Factory</Link>
+              </li>
             </ul>
           </div>
 
@@ -68,15 +68,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">6383035750</span>
-              </li>
-              <li className="flex items-center gap-3 h-6">
-                <Phone size={18} className="text-indigo-400" />
                 <span className="text-gray-400">9487078661</span>
-              </li>
-              <li className="flex items-center gap-3 h-6">
-                <Phone size={18} className="text-indigo-400" />
-                <span className="text-gray-400">9003868879</span>
               </li>
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
@@ -89,6 +81,14 @@ const Footer = () => {
               <li className="flex items-center gap-3 h-6">
                 <Phone size={18} className="text-indigo-400" />
                 <span className="text-gray-400">6381254305</span>
+              </li>
+              <li className="flex items-center gap-3 h-6">
+                <Phone size={18} className="text-indigo-400" />
+                <span className="text-gray-400">6383035750</span>
+              </li>
+              <li className="flex items-center gap-3 h-6">
+                <Phone size={18} className="text-indigo-400" />
+                <span className="text-gray-400">9003868879</span>
               </li>
             </ul>
           </div>
