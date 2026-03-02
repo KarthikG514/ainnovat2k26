@@ -37,7 +37,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-gray-900">Phone</h3>
                     <p className="text-gray-900 font-bold">6381503021 - <span className="gradient-text font-bold">Abdul Rashik</span></p>
                     <p className="text-gray-900 font-bold">9487078661 - <span className="gradient-text font-bold" >Abhishek Anand</span></p>
-                    <p className="text-gray-900 font-bold">8220696177 - <span className="gradient-text font-bold">Varun Kishore</span></p>
+                    <p className="text-gray-900 font-bold">7416041634 - <span className="gradient-text font-bold">Venkatesh</span></p>
                     <p className="text-gray-900 font-bold">6381254305 - <span className="gradient-text font-bold">Aadhi</span></p>
                     <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold" >MothishWaran</span></p>
                     <p className="text-gray-900 font-bold">6383035750 - <span className="gradient-text font-bold">Saswanth</span></p>

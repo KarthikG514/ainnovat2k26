@@ -21,9 +21,9 @@ const OrganizersSection = () => {
 
     const students = [
         { name: "Arunkumar K", contact: "6382919354" },
-        { name: "Kalai Selvi G", contact: "6374601372" },
+        { name: "Dhanush", contact: "6380228989" },
         { name: "L Sanjai", contact: "8122179979" },
-        { name: "Niveditha N", contact: "7094011001" },
+        { name: "Sri Hari", contact: "8610102300" },
     ];
 
     const containerVariants = {
