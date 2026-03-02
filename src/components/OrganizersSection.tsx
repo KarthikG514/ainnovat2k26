@@ -7,8 +7,8 @@ const OrganizersSection = () => {
             name: "Mrs. R. Mekala",
             role: "AP/AI&DS",
             img: "/images/organizers/mekala.png",
-            scale: 2.2,
-            origin: 'center 30%'
+            scale: 1.7,
+            origin: 'center 45%'
         },
         {
             name: "Mrs. M. Nithiya",
