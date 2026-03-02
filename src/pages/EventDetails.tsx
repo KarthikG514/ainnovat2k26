@@ -88,7 +88,7 @@ const EventDetails = () => {
                   <Clock className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Time</p>
-                    <p className="font-medium text-gray-900">10:30 AM - 01:30 PM</p>
+                    <p className="font-medium text-gray-900">10:30 AM - 01:00 PM</p>
                   </div>
                 </div>
 
@@ -96,7 +96,7 @@ const EventDetails = () => {
                   <Users className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Participants</p>
-                    <p className="font-medium">Individual - Team of 4</p>
+                    <p className="font-medium">{event.id === 'workshop' ? 'Individual' : 'Individual - Team of 4'}</p>
                   </div>
                 </div>
 
