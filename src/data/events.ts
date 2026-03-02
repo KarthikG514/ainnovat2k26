@@ -38,13 +38,13 @@ export const events: Event[] = [
     name: 'Brain Buster',
     description: 'Pitch your new startup ideas and innovative solutions. Brainstorm, collaborate, and compete for the best concept.',
     type: 'technical',
-    image: '/images/events/ideathon.jpg',
+    image: '/images/events/brain-buster.png',
     details: 'Brain Busters is a dual-round technical event that challenges both creativity and analytical thinking. Each team of four splits into two pairs to compete simultaneously within a common time limit. One pair participates in Comic Collide, crafting an engaging comic from given themes and dialogues, while the other takes on the Red Teaming (AI Jailbreak Challenge), strategically interacting with an AI system to uncover a hidden secret. Final scores combine results from both rounds, rewarding teams that demonstrate collaboration, innovation, and strategic problem-solving under pressure.',
     guidelines: [
-      'Each team must present a unique startup idea',
-      'Presentation should include problem statement, solution, and business model',
-      'Pitch time: 5 to 7 minutes followed by Q&A',
-      'Certificate will be provided upon completion',
+      'Each team must consist of 4 members',
+      'At least 1 laptop per team is compulsory',
+      'Using AI is allowed only for Comic Collide',
+      'Certification will be provided upon creation & completion',
     ],
     coordinators: [
       { name: 'Abhishek Anand', mobile: '9487078661' },
