@@ -88,7 +88,7 @@ const EventDetails = () => {
                   <Clock className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Time</p>
-                    <p className="font-medium text-gray-900">10:30 AM - 01:00 PM</p>
+                    <p className="font-medium text-gray-900">{event.type === 'non-technical' ? '02:00 PM - 03:00 PM' : '10:30 AM - 01:00 PM'}</p>
                   </div>
                 </div>
 
