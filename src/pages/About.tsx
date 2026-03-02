@@ -15,9 +15,9 @@ const About = () => {
         { time: '10:30 AM – 01:00 PM', title: 'Idea Pitching' },
         { time: '10:30 AM – 01:00 PM', title: 'Tech Forge' },
         { time: '10:30 AM – 01:00 PM', title: 'Brain Buster' },
-        { time: '02:00 PM – 03:30 PM', title: 'Fun Factory' },
-        { time: '02:00 PM – 03:30 PM', title: 'BEAT BATTLE: Mind Edition' },
-        { time: '03:30 PM – 04:30 PM', title: 'Prize Distribution' }
+        { time: '02:00 PM – 03:00 PM', title: 'Fun Factory' },
+        { time: '02:00 PM – 03:00 PM', title: 'BEAT BATTLE: Mind Edition' },
+        { time: '03:00 PM – 04:30 PM', title: 'Prize Distribution' }
       ]
     },
   ];
