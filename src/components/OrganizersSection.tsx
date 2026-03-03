@@ -13,9 +13,10 @@ const OrganizersSection = () => {
         {
             name: "Mrs. M. Nithiya",
             role: "AP/AI&DS",
-            img: "/images/organizers/nithiya.jpg",
-            scale: 1.7,
-            origin: 'center 30%'
+            img: "/images/organizers/nithiya.png",
+            scale: 1.0,
+            origin: 'center 20%',
+            objectPosition: '40% 15%'
         },
     ];
 
@@ -146,7 +147,7 @@ const OrganizersSection = () => {
                                             loading="lazy"
                                             className="w-full h-full object-cover"
                                             style={{
-                                                objectPosition: 'center 15%',
+                                                objectPosition: member.objectPosition || 'center 15%',
                                                 transform: `scale(${member.scale})`,
                                                 transformOrigin: member.origin
                                             }}
