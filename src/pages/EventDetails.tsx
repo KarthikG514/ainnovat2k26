@@ -58,9 +58,11 @@ const EventDetails = () => {
               <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">
                 {event.type === 'technical' ? 'Technical Event' : 'Non-Technical Event'}
               </span>
-              <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">
-                Registration Open
-              </span>
+              {event.formLink && (
+                <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">
+                  Registration Open
+                </span>
+              )}
             </div>
 
             <div className="aspect-video rounded-xl overflow-hidden mb-8">
@@ -109,12 +111,14 @@ const EventDetails = () => {
                 </div>
               </div>
 
-              <button
-                onClick={handleRegister}
-                className="btn btn-primary w-full"
-              >
-                Register Now
-              </button>
+              {event.formLink && (
+                <button
+                  onClick={handleRegister}
+                  className="btn btn-primary w-full"
+                >
+                  Register Now
+                </button>
+              )}
             </div>
 
             <div className="bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-xl p-6">

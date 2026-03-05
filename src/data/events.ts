@@ -107,7 +107,7 @@ export const events: Event[] = [
       { name: 'MothishWaran', mobile: '9003868879' },
       { name: 'Saswanth', mobile: '6383035750' },
     ],
-    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeCnfl5v_EFL6KM5ucbNjtbZY0DrpD_QppsK_HwyCb79Z0e_g/viewform?usp=publish-editor'
+    formLink: ''
   },
   {
     id: 'ipl-auction',
@@ -126,6 +126,6 @@ export const events: Event[] = [
       { name: 'MothishWaran', mobile: '9003868879' },
       { name: 'Saswanth', mobile: '6383035750' },
     ],
-    formLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeCnfl5v_EFL6KM5ucbNjtbZY0DrpD_QppsK_HwyCb79Z0e_g/viewform?usp=publish-editor'
+    formLink: ''
   },
 ];
