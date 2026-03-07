@@ -36,7 +36,7 @@ export const events: Event[] = [
   {
     id: 'idea-pitching',
     name: 'Brain Buster',
-    description: 'Pitch your new startup ideas and innovative solutions. Brainstorm, collaborate, and compete for the best concept.',
+    description: 'A dual-round technical event where teams tackle Comic Collide and the AI Jailbreak Challenge simultaneously, testing creativity, analytical thinking, and strategic problem-solving.',
     type: 'technical',
     image: '/images/events/brain-buster.png',
     details: 'Brain Busters is a dual-round technical event that challenges both creativity and analytical thinking. Each team of four splits into two pairs to compete simultaneously within a common time limit. One pair participates in Comic Collide, crafting an engaging comic from given themes and dialogues, while the other takes on the Red Teaming (AI Jailbreak Challenge), strategically interacting with an AI system to uncover a hidden secret. Final scores combine results from both rounds, rewarding teams that demonstrate collaboration, innovation, and strategic problem-solving under pressure.',
@@ -104,8 +104,8 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'MothishWaran', mobile: '9003868879' },
       { name: 'Saswanth', mobile: '6383035750' },
+      { name: 'MothishWaran', mobile: '9003868879' },
     ],
     formLink: ''
   },
