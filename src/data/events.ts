@@ -110,19 +110,18 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'Saswanth', mobile: '6383035750' },
-      { name: 'MothishWaran', mobile: '9003868879' },
+      { name: 'Saswanth', mobile: '9003868879' },
     ],
     formLink: ''
   },
   {
-    id: 'ipl-auction',
-    name: 'BEAT BATTLE: Mind Edition',
-    description: 'Participants will take part in a fun and interactive game that combines memory and music skills. First, an image will be shown for a limited time, and after it disappears, participants must answer questions based on what they remember. Next, a song will be played and paused at certain lines where players must fill in the missing lyrics correctly. Finally, only the background music (BGM) of a movie or song will be played, and participants must identify the correct movie or song name.',
+    id: 'beat-battle',
+    name: 'Beat Battle',
+    description: 'A multi-round challenge testing memory, music knowledge, and decoding skills. From visual recall to Morse code challenges, speed and accuracy are key.',
     type: 'non-technical',
     image: '/images/events/beat-battle.png',
-    details: 'BEAT BATTLE: Mind Edition is an exciting and interactive game that puts your memory, music knowledge, and quick thinking to the test! The event consists of three thrilling rounds. In Round 1 (Picture Memory), an image will be displayed for a limited time — once it disappears, you must answer questions based on what you remember. In Round 2 (Lyrics Challenge), a song will be played and paused at key moments — you must fill in the missing lyrics correctly. In Round 3 (BGM Guess), only the background music of a movie or song will be played, and you must identify the correct movie or song name. Get ready to test your senses and compete for the win!',
-    participants: 'Individual',
+    details: 'Participants will take part in a fun and interactive game that combines memory, music, and decoding skills. First, an image will be shown for a limited time, and after it disappears, participants must answer questions based on what they remember. Next, a song will be played and paused at certain lines where players must correctly fill in the missing lyrics. Finally, participants will face a Morse Code challenge, where movie names are presented in dots and dashes format. Using a provided Morse code reference chart, they must decode the clues and identify the correct movie name. Speed, accuracy, and teamwork will determine the winners of this exciting multi-round event.',
+    participants: '2 - 4 Members',
     guidelines: [
       'Listen carefully and pay close attention during each round',
       'Use of mobile phones is strictly prohibited during the event',
@@ -130,8 +129,7 @@ export const events: Event[] = [
       'Certificate will be provided upon completion',
     ],
     coordinators: [
-      { name: 'MothishWaran', mobile: '9003868879' },
-      { name: 'Saswanth', mobile: '6383035750' },
+      { name: 'Mothiswaran', mobile: '6383035750' }
     ],
     formLink: ''
   },

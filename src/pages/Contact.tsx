@@ -39,7 +39,7 @@ const Contact = () => {
                     <p className="text-gray-900 font-bold">9487078661 - <span className="gradient-text font-bold" >Abhishek Anand</span></p>
                     <p className="text-gray-900 font-bold">7416041634 - <span className="gradient-text font-bold">Venkatesh</span></p>
                     <p className="text-gray-900 font-bold">6381254305 - <span className="gradient-text font-bold">Aadhi</span></p>
-                    <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold" >MothishWaran</span></p>
+                    <p className="text-gray-900 font-bold">9003868879 - <span className="gradient-text font-bold" >Mothiswaran</span></p>
                     <p className="text-gray-900 font-bold">6383035750 - <span className="gradient-text font-bold">Saswanth</span></p>
                   </div>
                 </div>
