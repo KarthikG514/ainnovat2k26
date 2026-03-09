@@ -98,7 +98,7 @@ const EventDetails = () => {
                   <Users className="text-indigo-600" size={20} />
                   <div>
                     <p className="text-sm text-gray-900">Participants</p>
-                    <p className="font-medium">{event.id === 'workshop' ? 'Individual' : 'Individual - Team of 4'}</p>
+                    <p className="font-medium text-gray-900">{event.participants}</p>
                   </div>
                 </div>
 

@@ -21,8 +21,8 @@ const OrganizersSection = () => {
     ];
 
     const students = [
-        { name: "Arunkumar K", contact: "6382919354" },
         { name: "Dhanush", contact: "6380228989" },
+        { name: "Arunkumar K", contact: "6382919354" },
         { name: "L Sanjai", contact: "8122179979" },
         { name: "Sri Hari", contact: "8610102300" },
     ];
